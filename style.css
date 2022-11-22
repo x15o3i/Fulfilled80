@@ -8,7 +8,7 @@
 
 .great-grand-parent {
     
-  background-image: url('background.jpg');
+background-color: #000;
 }
 .my-info {
    font-size: 40px;
@@ -18,7 +18,9 @@
 
 
 .sponge {
-    width: 10px;
+    width: ;
+    font-size: 35px;
+    font-style: oblique;
 }
 .term {
     display: flex;
@@ -47,7 +49,7 @@ position: relative;
 transition: 0.6s;
 }
 .sponge-contact:after {
-content: '\00bb';
+content: '00bb';
   position: absolute;
   opacity: 5;
   top: 0;
@@ -55,13 +57,60 @@ content: '\00bb';
   transition: 0.6s;
 }
 .sponge-contact:hover span{
-  padding-right: 25px; 
-  padding-left: 25px;   
+  padding-right: 20px; 
+  padding-left: 20px; 
+  padding-top: 20px;
+  padding-bottom: 20px;  
 }
-
 
 .sponge-contact:hover span::after {
 opacity: 1;
 right: 0;
 }
 
+.worldclock {
+  background-color: rosybrown;
+  font-size: 1.4rem;
+  color: black;
+ padding: 1rem 5rem;
+ cursor: pointer;
+ transition: all 0.5s;
+ margin: 5px;
+ text-align: center;
+ border-radius: 50px;
+ border: 2px;
+}
+
+.worldclock span{
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.6s;
+}
+.worldclock:after {
+content: '00bb';
+position: absolute;
+opacity: 5;
+top: 0;
+right: -20px;
+transition: 0.6s;
+}
+.worldclock:hover span{
+padding-right: 20px; 
+padding-left: 20px; 
+padding-top: 20px;
+padding-bottom: 20px;  
+}
+
+
+.worldclock:hover span::after {
+opacity: 1;
+right: 0;
+}img:hover {
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
