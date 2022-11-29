@@ -33,9 +33,13 @@ width: 100%;
 }
 .logo {
 font-size: 30px;
-color: aquamarine;
-text-decoration: line-through;
+color:whitesmoke;
+text-decoration: dotted;
 padding-right: 15rem;
+}
+a {
+text-decoration: none;
+color: aliceblue;
 }
 
 /* this is the end of nav */
