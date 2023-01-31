@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css ">
+  <title>Currency converter</title>
 </head>
 <body>
-    <div class="currency-row-outer">
-        <div class="currency-converter">
-          <h2>Currency Converter</h2>
-    
-          <div class="field grid-50-50">
-            <div class="colmun col-left">
-              <input type="number" class="form-input" id="number" placeholder="00000">
-            </div>
-            <div class="colmun col-right">
-              <div class="select">
-                <select name="currency" class="currency" onchange="updatevalue()"></select>
-              </div>
-            </div>
-          </div>
-    
-          <div class="field grid-50-50">
-            <div class="colmun col-left">
-              <input type="text" class="form-input" id="output" placeholder="00000" disabled>
-            </div>
-            <div class="colmun col-right">
-              <div class="select">
-                <select name="currency" class="currency" onchange="updatevalue()"></select>
-              </div>
-            </div>
-          </div>
-    
-        </div>
+  <div class="container">
+    <div class="currency-converter">
+      <div class="title">
+      <img src="./exchange.png" alt="logo">
+      <h1>currency-converter</h1>
+    </div>
+      <div class="exchange-rate">
+        <p>--- equals</p>
+        <h1>---</h1>
       </div>
-    <script src="./currency!!.js"></script>
+        <div class="from-currency">
+          <input type="number" id="from-currency-amount" value="1">
+          <select></select>
+        </div>
+        <div class="to-currency">
+          <input type=number" id="to-currency-amount">
+        </div>
+        
+  <script src="./converter.js"></script>
 </body>
 </html>
