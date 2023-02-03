@@ -125,4 +125,7 @@ a {
   display: flex;
   flex-direction: row;
 }
-
+.spot{
+  display: flex;
+  flex-direction: row;
+}
