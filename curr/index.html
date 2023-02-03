@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css ">
-  <title>Currency converter</title>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="currency-converter">
-      <div class="title">
-      <img src="./exchange.png" alt="logo">
-      <h1>currency-converter</h1>
-    </div>
-      <div class="exchange-rate">
-        <p>--- equals</p>
-        <h1>---</h1>
+     <h1 class="mm">Money Converter</h1>
+     <div class="money">
+           Amount <br><br>
+           From <br>
+           Naira: <input type="number" id="naira"> <br><br>
+           To <br>
+           Dollar: <input type="number" id="dollar"> <br><br>
+           To <br>
+           Euro: <input type="number" id="Euro"> <br><br>
+           To <br>
+           Pound: <input type="number" id="Pound"> <br><br>
+           <button id="btn">Calculate</button>
       </div>
-        <div class="from-currency">
-          <input type="number" id="from-currency-amount" value="1">
-          <select></select>
-        </div>
-        <div class="to-currency">
-          <input type=number" id="to-currency-amount">
-        </div>
-        
-  <script src="./converter.js"></script>
+      <script src="./currency.js"></script>
+
+      <footer>
+        <p>&copy; Raphael Fulfilled 2023 || All rights reserved.</p>
+      </footer>
 </body>
 </html>
